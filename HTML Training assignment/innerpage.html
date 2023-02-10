@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="C:\Users\DELL\Desktop\TS software\Tatvasoft project\HTML Training assignment\css\style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link rel="stylesheet" href="C:\Users\DELL\Desktop\TS software\Tatvasoft project\HTML Training assignment\css\bootstrap.min.css">
+  <title>Inner Page</title>
+</head>
+
+<body>
+  <div class="dashboard-main-container">
+    <div class="innerpage-container">
+      <header>
+        <div class="flex-left">
+          <input type="checkbox" id="check" />
+            <label for="check"
+              ><img src="images/menu-bar.svg" alt="menu bar" id="menu-bar"
+            /></label>
+          <img src="images/logo.svg" alt="logo" class="logo">
+        </div>
+        <div class="flex-right">
+          <div>
+            <img src="images/search-icon.svg" class="search">
+            <input type="text" placeholder="Search" class="search-txt">
+          </div>
+          <div class="right-panel">
+            <img src="images/notification-icon.svg" id="notification">
+            <img src="images/profile.png" class="profile">
+            <span class="profile-text">John Doe</span>
+            <img src="images/downward-arrow.svg" class="arrow">
+          </div>
+        </div>
+      </header>
+      <section class="main">
+        <div class="side-bar">
+          <div class="side-bar-item">
+            <img src="images/dashboard-default.svg" class="sidebar-item-icon">
+            <span class="sidebar-item-text">Dashboard</span>
+          </div>
+          <div class="side-bar-item item-2">
+            <img src="images/graph-active.svg" class="sidebar-item-icon">
+            <span class="sidebar-item-text" style="color: #c8242f">Analysis
+            </span>
+          </div>
+          <div class="side-bar-item">
+            <img src="images/inbox-default.svg" class="sidebar-item-icon">
+            <span class="sidebar-item-text">Inbox</span>
+          </div>
+          <div class="side-bar-item">
+            <img src="images/clock-default.svg" class="sidebar-item-icon">
+            <span class="sidebar-item-text">History</span>
+          </div>
+          <div class="side-bar-item">
+            <img src="images/user-default.svg" class="sidebar-item-icon">
+            <span class="sidebar-item-text">User</span>
+          </div>
+          <div class="side-bar-item">
+            <img src="images/maintenance-default.svg" class="sidebar-item-icon">
+            <span class="sidebar-item-text">Maintenance</span>
+          </div>
+          <div class="side-bar-item">
+            <img src="images/setting-default.svg" class="sidebar-item-icon">
+            <span class="sidebar-item-text">Setting</span>
+          </div>
+        </div>
+        <div class="main-dashboard">
+          <div class="heading">Analysis</div>
+          <div class="main-form">
+            <!-- One Column -->
+            <div class="container-fluid col-box">
+              <span class="head-text">One Column</span>
+              <div class="control">
+                <input class="txt-control" type="text" id="name" required>
+                <label for="name">Name</label>
+              </div>
+              <div class="control">
+                <select class="dropdown-control" style="margin-top: 21px;">
+                  <option>Dropdown</option>
+                  <option>1</option>
+                  <option>2</option>
+                </select>
+              </div>
+              <div class="control">
+                <textarea id="multiline" class="multiline-control" rows="4" required></textarea>
+                <label for="multiline">Multiple line</label>
+              </div>
+            </div>
+
+            <!-- Two column -->
+            <div class="container-fluid col-box">
+              <span class="head-text">Two Column</span>
+              <div class="row gy-2"> 
+                <div class="col-12 col-sm-6">
+                  <div class="control">
+                    <input class="txt-control" type="text" id="name" required>
+                    <label for="name">Name</label>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6">
+                  <div class="control">
+                    <input class="txt-control" type="text" id="uname" required>
+                    <label for="uname">Username</label>
+                  </div>
+                </div>
+              </div>
+              <div class="row gy-2" style="margin-top: 2px">
+                <div class="col-12 col-sm-6">
+                  <div class="control">
+                    <input class="txt-control" type="password" id="pass" required>
+                    <label for="pass">Password</label>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 ">
+                  <div class="control">
+                    <select class="dropdown-control">
+                      <option>Dropdown</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Three Column -->
+            <div class="container-fluid col-box">
+              <span class="head-text">Three Column</span>
+              <div class="row gy-2">
+                <div class="col-12 col-sm-6 col-md-4  col-lg-4 col-xl-4">
+                  <div class="control">
+                    <input class="txt-control" type="text" id="focus" required>
+                    <label for="focus">Focus</label>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4  col-lg-4 col-xl-4">
+                  <div class="control">
+                    <input class="txt-control" type="password" id="pass1" required>
+                    <label for="pass1">Password</label>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4  col-lg-4 col-xl-4">
+                  <div class="control">
+                    <input class="disable-control" type="text" id="disable" name="disable" value="JohnDoe" disabled>
+                    <label for="disable">Disabled</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Four Column -->
+            <div class="container-fluid  col-box">
+              <span class="head-text">Four Column</span>
+              <div class="row gy-2">
+                <div class="col-12 col-sm-6 col-md-4  col-lg-3 col-xl-3">
+                  <div class="control">
+                    <input class="validate-control" type="text" id="designation" name="designation" value="UI Designer"
+                      required>
+                    <label for="designation">Designation</label>
+                    <span>Enter Valid data</span>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                  <div class="control">
+                    <input class="info-control" type="text" id="name" required>
+                    <label for="name">Name</label>
+                    <span>Enter your full Name as per ID</span>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-3">
+                  <div class="control">
+                    <input class="txt-control" type="text" id="uname" name="uname" required value="JohnDoe">
+                    <label for="uname">Username</label>
+                  </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-12  col-lg-3 col-xl-3">
+                  <div class="control">
+                    <select class="dropdown-control">
+                      <option>Select</option>
+                      <option>1</option>
+                      <option>2</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Other Design elements -->
+            <div class="col-box">
+              <div class="head-text" style="margin-bottom: 21px;">
+                Other Design Elements
+              </div>
+              <div class="inner-head-text">
+                File Upload
+              </div>
+              <div class="control">
+                <input type="file">
+                <button class="btn-upload"><img src="images/cloud-upload-icon.svg" alt="Upload"> <span
+                    class="upload-text">Upload</span></button>
+                <span>No item Selected</span>
+              </div>
+              <div class="inner-head-text" style="margin-top: 36px; margin-bottom: 10px;">
+                Radio Button
+              </div>
+              <div class="radiobutton">
+                <div class="opt"><input type="radio" name="option1" id="option1" /><span class="opt-name">Option
+                    1</span></div>
+                <div class="opt"><input type="radio" name="option1" id="option2" /><span class="opt-name">Option
+                    2</span></div>
+              </div>
+              <div class="inner-head-text" style="margin-top: 32px;">Checkbox</div>
+              <div class="check-box">
+                <div class="check"><input type="checkbox" name="check" id="check1" checked disabled /><span
+                    class="check-name">Option 1</span></div>
+                <div class="check"><input type="checkbox" name="check" id="check2" /><span class="check-name">Option
+                    2</span></div>
+              </div>
+
+              <div class="inner-head-text" style="margin-top: 35px; margin-bottom: 25px;">
+                Snackbar
+              </div>
+              <div class="row gy-2">
+                <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-6">
+                  <div class="snackbar error">
+                    <img src="images/error-icon.svg">
+                      This is an error Message.
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-6">
+                  <div class="snackbar info">
+                    <img src="images/info-icon.svg">
+                    This is an information message!
+                  </div>
+                </div>
+              </div>
+              <div class="row gy-2" style="margin-top: 2px;">
+                <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-6">
+                  <div class="snackbar warning">
+                    <img src="images/warning-icon.svg">
+                      This is a warning message!
+                  </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-6  col-lg-6 col-xl-6">
+                  <div class="snackbar success">
+                    <img src="images/success-icon.svg">
+                    This is a success message!
+                  </div>
+                </div>
+              </div>
+              <div class="inner-head-text" style="margin-top: 35px;">
+                Call to action
+              </div>
+              <div class="btn-box">
+                <button class="primary">Primary</button>
+                <button class="secondary">Secondary</button>
+              </div>
+
+              <div class="inner-head-text" style="margin-top: 35px;">
+                Tabs
+              </div>
+              <ul class="tabs">
+                <li class="tab-item active">
+                  <a class="tab-link">Tab 1</a>
+                </li>
+                <li class="tab-item">
+                  <a class="tab-link">Tab 2</a>
+                </li>
+                <li class="tab-item">
+                  <a class="tab-link ">Tab 3</a>
+                </li>
+              </ul>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing.</p>
+            </div>
+          </div>
+        </div>
+    </div>
+  </div>
+  </section>
+  </div>
+  </div>
+</body>
+
+</html>
