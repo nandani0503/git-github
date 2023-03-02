@@ -1,0 +1,14 @@
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\bin\Debug\net6.0\CI_Platform.Entities.deps.json
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\bin\Debug\net6.0\CI_Platform.Entities.runtimeconfig.json
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\bin\Debug\net6.0\CI_Platform.Entities.dll
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\bin\Debug\net6.0\CI_Platform.Entities.pdb
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.AssemblyInfo.cs
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.dll
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\refint\CI_Platform.Entities.dll
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.pdb
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\CI_Platform.Entities.genruntimeconfig.cache
+C:\Users\DELL\Desktop\CI\CI_PlatForm\CI_Platform.Entities\obj\Debug\net6.0\ref\CI_Platform.Entities.dll
