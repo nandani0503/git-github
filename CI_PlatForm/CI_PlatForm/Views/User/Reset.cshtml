@@ -1,5 +1,5 @@
 ﻿
-
+@model CI_Platform.Entities.ViewModel.Reset_Password
 @*
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
@@ -60,6 +60,7 @@
                       </div>
                 </div>
                 <div class="col-lg-4 align-self-center">
+                <form method="post">
                     <div class="container-fluid">
                         <div class="row justify-content-center" style="margin-top: 20px;">
                             <p class="row justify-content-center" style="font-size: large;">New Password</p>
@@ -67,26 +68,26 @@
                                 in the fields below</p>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label"> New Password</label>
-                                <input type="password" class="form-control" id="exampleFormControlInput1"
+                                <input type="password" asp-for="Password" class="form-control" id="exampleFormControlInput1"
                                     placeholder="***************">
                             </div>
                             <div class="mb-3">
                                 <label for="exampleFormControlInput1" class="form-label"> Confirm Password</label>
-                                <input type="password" class="form-control" id="exampleFormControlInput1"
+                                <input type="password" asp-for="ConfirmPassword" class="form-control" id="exampleFormControlInput1"
                                     placeholder="***************">
                             </div><br>
                             <button type="button" class="btn btn-outline-warning"
                                 style="width: 100%; border-radius: 30px;">Change Password</button>
                         </div>
                         <br>
-                        <div class="row justify-content-center"><button type="button"
+                        <div class="row justify-content-center"><button type="submit"
                                 class="btn btn-light">Login</button>
                                 
                         </div><br><br><br>
                         <a href="#" class="row justify-content-center" style="font-size: 10px;">Privacy Policy</a>
                     </div>
 
-                </div>
+                </form></div>
             </div>
         </div>
         

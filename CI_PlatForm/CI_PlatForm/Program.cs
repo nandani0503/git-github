@@ -14,6 +14,9 @@ options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnectio
 builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<CiplatformContext>();
 builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -28,6 +31,8 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+app.UseAuthentication();
 
 app.UseAuthorization();
 
